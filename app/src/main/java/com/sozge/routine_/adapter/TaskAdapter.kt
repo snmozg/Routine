@@ -41,5 +41,7 @@ class TaskAdapter(val taskList : List<Task>) : RecyclerView.Adapter<TaskAdapter.
     class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
         val titleText : TextView = itemView.findViewById(R.id.titleText)
         val descText : TextView = itemView.findViewById(R.id.descText)
+
+        //Sinem
     }
 }
